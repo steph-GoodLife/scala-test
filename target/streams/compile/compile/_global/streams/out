@@ -1,4 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0mF:\ScalaTest\play-samples-play-scala-hello-world-tutorial\app\views\test.scala.html:9:22: not found: value cours[0m
-[0m[[0m[31merror[0m] [0m[0m        @for(cour <- cours){[0m
-[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mF:\ScalaTest\play-samples-play-scala-hello-world-tutorial\app\controllers\LoginController.scala:24:13: overloaded method Redirect with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (call: play.api.mvc.Call)play.api.mvc.Result <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (url: String,queryStringParams: Map[String,Seq[String]],status: Int)play.api.mvc.Result[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (play.api.mvc.Result)[0m
+[0m[[0m[31merror[0m] [0m[0m            Redirect(Ok("success"))[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
