@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: initialized: JsonRpcNotificationMessage(2.0, initialized, {})[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: textDocument/didOpen: JsonRpcNotificationMessage(2.0, textDocument/didOpen, {"textDocument":{"uri":"file:///f%3A/ScalaTest/play-samples-play-scala-hello-world-tutorial/app/controllers/TestController.scala","languageId":"scala","version":1,"text":"package controllers\r\n\r\nimport javax.inject._\r\nimport play.api._\r\nimport play.api.mvc._\r\n\r\n\r\n@Singleton\r\nclass TestController @Inject()(cc: ControllerComponents) extends AbstractController(cc) {\r\n\r\n    def test = Action {\r\n        Ok(views.html.test())\r\n    }\r\n\r\n}"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / collectAnalyses[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0manalysis location (F:\ScalaTest\play-samples-play-scala-hello-world-tutorial\target\scala-2.13\zinc\inc_compile_2.13.zip,true)[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 6 s, completed 10-juin-2022 9:44:09[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

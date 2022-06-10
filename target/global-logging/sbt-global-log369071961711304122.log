@@ -1,0 +1,9 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(scala, Some(d80525bc-9fec-4edd-ac97-92d59db30e6d), Some(CommandSource(console0)))[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid command: scala (similar: alias, last, eval)[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid project ID: scala[0m
+[0m[[0m[31merror[0m] [0m[0mExpected ':'[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid key: scala (similar: scalaHome, scalaSource, clean)[0m
+[0m[[0m[31merror[0m] [0m[0mscala[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[31merror[0m] [0m[0mserver failed to start on local:sbt-server-76dca50b1c18059a1732. java.io.IOException: Could not create lock for \\.\pipe\sbt-server-76dca50b1c18059a1732_lock, error 5[0m

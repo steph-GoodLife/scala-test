@@ -1,0 +1,20 @@
+@(cours: Seq[String])
+@main("test") {
+@defining(play.core.PlayVersion.current) { version =>
+    
+<div class="container"></div>
+    <h2>1ere vue de test avec Scala</h2>
+
+    <div class="wrapper">
+        <ul>
+            @for(cour <- cours){
+                    <li>@cour</li>
+            }
+        </ul>
+    </div>
+</div>
+
+
+
+}
+}
