@@ -30,13 +30,13 @@ Seq[Any](format.raw/*2.4*/("""
         
     """),format.raw/*7.5*/("""<h2>Login</h2>
 
-    <form method="get" action="/validate ">
+    <form method="get" action="/validate">
         Username: <input type="text" name="username"/></input><br>
         Password: <input type="password" name="password"/></input><br>
         <input type="submit"/>
     </form>
 
-    <form method="post" action="/validate">
+    <form method="post" action="/validatePost">
         Username: <input type="text" name="username"/></input><br> 
         Password: <input type="password" name="password"/></input><br>
         <input type="submit"/>
@@ -62,8 +62,8 @@ Seq[Any](format.raw/*2.4*/("""
               /*
                   -- GENERATED --
                   SOURCE: app/views/login.scala.html
-                  HASH: 7d19e0a4b5679fed4cc1673e5caee74a5e150f82
-                  MATRIX: 734->19|830->21|860->26|881->39|919->40|951->47|998->86|1048->99|1090->115|1624->619
+                  HASH: 115455b710f87d1774fd9762404d455e8940439c
+                  MATRIX: 734->19|830->21|860->26|881->39|919->40|951->47|998->86|1048->99|1090->115|1627->622
                   LINES: 21->2|26->2|28->4|28->4|28->4|29->5|29->5|29->5|31->7|47->23
                   -- GENERATED --
               */

@@ -18,7 +18,7 @@ class Routes(
   TestController_1: controllers.TestController,
   // @LINE:12
   LoginController_2: controllers.LoginController,
-  // @LINE:20
+  // @LINE:21
   Assets_3: controllers.Assets,
   val prefix: String
 ) extends GeneratedRouter {
@@ -31,7 +31,7 @@ class Routes(
     TestController_1: controllers.TestController,
     // @LINE:12
     LoginController_2: controllers.LoginController,
-    // @LINE:20
+    // @LINE:21
     Assets_3: controllers.Assets
   ) = this(errorHandler, HomeController_0, TestController_1, LoginController_2, Assets_3, "/")
 
@@ -170,7 +170,7 @@ class Routes(
     )
   )
 
-  // @LINE:14
+  // @LINE:15
   private[this] lazy val controllers_LoginController_validateLoginPost6_route = Route("POST",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("validatePost")))
   )
@@ -184,11 +184,11 @@ class Routes(
       "POST",
       this.prefix + """validatePost""",
       """""",
-      Seq()
+      Seq("""nocsrf""")
     )
   )
 
-  // @LINE:15
+  // @LINE:16
   private[this] lazy val controllers_LoginController_validation7_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("validateOk")))
   )
@@ -206,7 +206,7 @@ class Routes(
     )
   )
 
-  // @LINE:20
+  // @LINE:21
   private[this] lazy val controllers_Assets_versioned8_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("assets/"), DynamicPart("file", """.+""",false)))
   )
@@ -263,19 +263,19 @@ class Routes(
         controllers_LoginController_validateLoginGet5_invoker.call(LoginController_2.validateLoginGet(username, password))
       }
   
-    // @LINE:14
+    // @LINE:15
     case controllers_LoginController_validateLoginPost6_route(params@_) =>
       call { 
         controllers_LoginController_validateLoginPost6_invoker.call(LoginController_2.validateLoginPost)
       }
   
-    // @LINE:15
+    // @LINE:16
     case controllers_LoginController_validation7_route(params@_) =>
       call { 
         controllers_LoginController_validation7_invoker.call(LoginController_2.validation())
       }
   
-    // @LINE:20
+    // @LINE:21
     case controllers_Assets_versioned8_route(params@_) =>
       call(Param[String]("path", Right("/public")), params.fromPath[Asset]("file", None)) { (path, file) =>
         controllers_Assets_versioned8_invoker.call(Assets_3.versioned(path, file))

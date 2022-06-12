@@ -572,3 +572,480 @@ AVERTISSEMENT: Unmatched cancel notification for request id 2119
 2022.06.10 15:33:38 WARN  no build target for: F:\ScalaTest\play-samples-play-scala-hello-world-tutorial\app\controllers\LoginController.scala
 2022.06.10 15:33:50 WARN  no build target for: F:\ScalaTest\play-samples-play-scala-hello-world-tutorial\app\controllers\LoginController.scala
 2022.06.10 15:34:04 WARN  no build target for: F:\ScalaTest\play-samples-play-scala-hello-world-tutorial\app\controllers\LoginController.scala
+2022.06.11 14:52:50 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at e:\scala-test\.metals\lsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\lsp.trace.json[0m
+2022.06.11 14:52:50 INFO  logging to file E:\scala-test\.metals\metals.log[0m
+2022.06.11 14:52:50 INFO  Started: Metals version 0.11.6 in workspace 'E:\scala-test' for client Visual Studio Code 1.68.0.[0m
+2022.06.11 14:52:52 INFO  time: initialize in 1.51s[0m
+2022.06.11 14:52:57 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.06.11 14:52:57 WARN  Build server is not auto-connectable.[0m
+2022.06.11 14:53:18 WARN  no build target for: E:\scala-test\app\controllers\LoginController.scala[0m
+2022.06.11 14:53:22 INFO  no build target found for E:\scala-test\app\controllers\LoginController.scala. Using presentation compiler with project's scala-library version: 3.1.2[0m
+2022.06.11 14:53:24 INFO  time: code lens generation in 5.79s[0m
+2022.06.11 14:53:24 INFO  time: code lens generation in 5.8s[0m
+2022.06.11 14:54:43 WARN  no build target for: E:\scala-test\app\controllers\LoginController.scala[0m
+2022.06.11 14:54:44 WARN  no build target for: E:\scala-test\app\controllers\HomeController.scala[0m
+2022.06.11 14:54:46 WARN  no build target for: E:\scala-test\app\controllers\LoginController.scala[0m
+2022.06.11 15:02:14 INFO  running 'C:\Users\Utilisateur\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\UTILIS~1\AppData\Local\Temp\metals4138267126283888861\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.06.11 15:02:16 INFO  [info] welcome to sbt 1.6.2 (AdoptOpenJDK Java 1.8.0_292)[0m
+2022.06.11 15:02:18 INFO  [info] loading settings for project scala-test-build-build-build from metals.sbt ...[0m
+2022.06.11 15:02:18 INFO  [info] loading project definition from E:\scala-test\project\project\project[0m
+2022.06.11 15:02:20 WARN  no build target for: E:\scala-test\app\controllers\LoginController.scala[0m
+2022.06.11 15:02:22 INFO  [info] loading settings for project scala-test-build-build from metals.sbt ...[0m
+2022.06.11 15:02:22 INFO  [info] loading project definition from E:\scala-test\project\project[0m
+2022.06.11 15:02:29 WARN  no build target for: E:\scala-test\app\controllers\LoginController.scala[0m
+2022.06.11 15:02:30 INFO  [success] Generated .bloop\scala-test-build-build.json[0m
+2022.06.11 15:02:30 INFO  [success] Total time: 8 s, completed 11 juin 2022 15:02:30[0m
+2022.06.11 15:02:31 INFO  [info] loading settings for project scala-test-build from metals.sbt,plugins.sbt,scaffold.sbt ...[0m
+2022.06.11 15:02:31 INFO  [info] loading project definition from E:\scala-test\project[0m
+2022.06.11 15:02:47 INFO  [success] Generated .bloop\scala-test-build.json[0m
+2022.06.11 15:02:47 INFO  [success] Total time: 16 s, completed 11 juin 2022 15:02:47[0m
+2022.06.11 15:02:49 INFO  [info] loading settings for project root from build.sbt ...[0m
+2022.06.11 15:02:49 INFO  [info]   __              __[0m
+2022.06.11 15:02:49 INFO  [info]   \ \     ____   / /____ _ __  __[0m
+2022.06.11 15:02:49 INFO  [info]    \ \   / __ \ / // __ `// / / /[0m
+2022.06.11 15:02:49 INFO  [info]    / /  / /_/ // // /_/ // /_/ /[0m
+2022.06.11 15:02:49 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /[0m
+2022.06.11 15:02:49 INFO  [info]       /_/               /____/[0m
+2022.06.11 15:02:49 INFO  [info] [0m
+2022.06.11 15:02:49 INFO  [info] Version 2.8.16 running Java 1.8.0_292[0m
+2022.06.11 15:02:49 INFO  [info] [0m
+2022.06.11 15:02:49 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:[0m
+2022.06.11 15:02:49 INFO  [info] https://www.playframework.com/sponsors[0m
+2022.06.11 15:02:49 INFO  [info] [0m
+2022.06.11 15:03:02 INFO  [success] Generated .bloop\root.json[0m
+2022.06.11 15:03:02 INFO  [success] Generated .bloop\root-test.json[0m
+2022.06.11 15:03:02 INFO  [success] Total time: 13 s, completed 11 juin 2022 15:03:02[0m
+2022.06.11 15:03:02 INFO  time: ran 'sbt bloopInstall' in 48s[0m
+2022.06.11 15:03:02 INFO  Attempting to connect to the build server...[0m
+2022.06.11 15:03:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.11 15:03:14 INFO  Attempting to connect to the build server...[0m
+2022.06.11 15:03:14 INFO  Attempting to connect to the build server...[0m
+2022.06.11 15:03:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\project\project\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.11 15:03:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\project\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.11 15:03:16 INFO  time: Connected to build server in 13s[0m
+2022.06.11 15:03:16 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b[0m
+2022.06.11 15:03:16 INFO  time: Imported build in 0.17s[0m
+2022.06.11 15:03:28 INFO  time: indexed workspace in 12s[0m
+2022.06.11 15:03:29 INFO  compiling root (14 scala sources and 1 java source)[0m
+2022.06.11 15:03:47 INFO  time: compiled root in 18s[0m
+2022.06.11 15:05:40 INFO  shutting down Metals[0m
+2022.06.11 15:05:40 INFO  Shut down connection with build server.[0m
+2022.06.11 15:05:40 INFO  Shut down connection with build server.[0m
+2022.06.11 15:05:40 INFO  Shut down connection with build server.[0m
+2022.06.11 15:05:40 ERROR Unexpected error initializing server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2022.06.12 10:22:51 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at e:\scala-test\.metals\lsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\lsp.trace.json[0m
+2022.06.12 10:22:52 INFO  logging to file E:\scala-test\.metals\metals.log[0m
+2022.06.12 10:22:52 INFO  Started: Metals version 0.11.6 in workspace 'E:\scala-test' for client Visual Studio Code 1.68.0.[0m
+2022.06.12 10:22:54 INFO  time: initialize in 1.47s[0m
+2022.06.12 10:22:54 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.06.12 10:22:55 INFO  Attempting to connect to the build server...[0m
+2022.06.12 10:22:55 INFO  skipping build import with status 'Installed'[0m
+2022.06.12 10:22:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.12 10:22:55 INFO  Attempting to connect to the build server...[0m
+2022.06.12 10:22:55 INFO  Attempting to connect to the build server...[0m
+2022.06.12 10:22:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\project\project\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.12 10:22:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\project\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.12 10:22:55 INFO  time: Connected to build server in 0.32s[0m
+2022.06.12 10:22:55 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b[0m
+2022.06.12 10:22:55 INFO  time: Imported build in 0.19s[0m
+2022.06.12 10:23:01 INFO  time: indexed workspace in 5.76s[0m
+2022.06.12 10:23:17 INFO  compiling root (14 scala sources and 1 java source)[0m
+2022.06.12 10:23:26 INFO  time: compiled root in 8.71s[0m
+2022.06.12 10:23:28 INFO  shutting down Metals[0m
+2022.06.12 10:23:28 INFO  Shut down connection with build server.[0m
+2022.06.12 10:23:28 INFO  Shut down connection with build server.[0m
+2022.06.12 10:23:28 INFO  Shut down connection with build server.[0m
+2022.06.12 10:23:28 ERROR Unexpected error initializing server
+scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: CompileResult.  Boxed Exception
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$4(BuildServerConnection.scala:300)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:298)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:286)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2022.06.12 10:25:43 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at e:\scala-test\.metals\lsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\lsp.trace.json[0m
+2022.06.12 10:25:44 INFO  logging to file E:\scala-test\.metals\metals.log[0m
+2022.06.12 10:25:44 INFO  Started: Metals version 0.11.6 in workspace 'E:\scala-test' for client Visual Studio Code 1.68.0.[0m
+2022.06.12 10:25:45 INFO  time: initialize in 1.28s[0m
+2022.06.12 10:25:45 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.06.12 10:25:46 INFO  Attempting to connect to the build server...[0m
+2022.06.12 10:25:46 INFO  skipping build import with status 'Installed'[0m
+2022.06.12 10:25:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.12 10:25:46 INFO  Attempting to connect to the build server...[0m
+2022.06.12 10:25:46 INFO  Attempting to connect to the build server...[0m
+2022.06.12 10:25:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\project\project\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.12 10:25:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\project\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.12 10:25:46 INFO  time: Connected to build server in 0.22s[0m
+2022.06.12 10:25:46 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b[0m
+2022.06.12 10:25:46 INFO  time: Imported build in 0.11s[0m
+2022.06.12 10:25:52 INFO  time: indexed workspace in 5.66s[0m
+2022.06.12 10:27:10 INFO  Disconnecting from Bloop session...[0m
+2022.06.12 10:27:10 ERROR build shutdown: bloop
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:106)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:103)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at com.sun.proxy.$Proxy8.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:106)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:103)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:470)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:78)
+	at java.nio.channels.Channels.writeFully(Channels.java:98)
+	at java.nio.channels.Channels.access$000(Channels.java:61)
+	at java.nio.channels.Channels$1.write(Channels.java:174)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at java.nio.channels.Channels$1.write(Channels.java:155)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:125)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:68)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at com.sun.proxy.$Proxy8.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:106)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:103)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2022.06.12 10:27:10 ERROR build shutdown: bloop
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:106)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:103)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at com.sun.proxy.$Proxy8.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:106)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:103)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:470)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:78)
+	at java.nio.channels.Channels.writeFully(Channels.java:98)
+	at java.nio.channels.Channels.access$000(Channels.java:61)
+	at java.nio.channels.Channels$1.write(Channels.java:174)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at java.nio.channels.Channels$1.write(Channels.java:155)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:125)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:68)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at com.sun.proxy.$Proxy8.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:106)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:103)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2022.06.12 10:27:10 ERROR build shutdown: bloop
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:106)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:103)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at com.sun.proxy.$Proxy8.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:106)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:103)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:470)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:78)
+	at java.nio.channels.Channels.writeFully(Channels.java:98)
+	at java.nio.channels.Channels.access$000(Channels.java:61)
+	at java.nio.channels.Channels$1.write(Channels.java:174)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at java.nio.channels.Channels$1.write(Channels.java:155)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:125)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:68)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at com.sun.proxy.$Proxy8.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:106)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:103)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2022.06.12 10:27:10 INFO  Attempting to connect to the build server...[0m
+2022.06.12 10:27:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.12 10:27:16 INFO  Attempting to connect to the build server...[0m
+2022.06.12 10:27:16 INFO  Attempting to connect to the build server...[0m
+2022.06.12 10:27:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\project\project\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.12 10:27:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\project\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.12 10:27:17 INFO  time: Connected to build server in 6.33s[0m
+2022.06.12 10:27:17 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b[0m
+2022.06.12 10:27:17 INFO  time: Imported build in 0.15s[0m
+2022.06.12 10:27:19 INFO  time: indexed workspace in 2.4s[0m
+2022.06.12 10:40:21 INFO  time: code lens generation in 1.68s[0m
+2022.06.12 10:40:21 INFO  time: code lens generation in 1.68s[0m
+2022.06.12 10:40:21 INFO  time: code lens generation in 3.92s[0m
+2022.06.12 10:40:21 INFO  time: code lens generation in 3.9s[0m
+2022.06.12 10:40:48 INFO  running 'C:\Users\Utilisateur\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\UTILIS~1\AppData\Local\Temp\metals390876187705901962\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.06.12 10:40:51 INFO  [info] welcome to sbt 1.6.2 (AdoptOpenJDK Java 1.8.0_292)[0m
+2022.06.12 10:40:51 INFO  [info] loading settings for project scala-test-build-build-build from metals.sbt ...[0m
+2022.06.12 10:40:52 INFO  [info] loading project definition from E:\scala-test\project\project\project[0m
+2022.06.12 10:40:52 INFO  [info] loading settings for project scala-test-build-build from metals.sbt ...[0m
+2022.06.12 10:40:53 INFO  [info] loading project definition from E:\scala-test\project\project[0m
+2022.06.12 10:40:57 INFO  [success] Generated .bloop\scala-test-build-build.json[0m
+2022.06.12 10:40:57 INFO  [success] Total time: 3 s, completed 12 juin 2022 10:40:57[0m
+2022.06.12 10:40:57 INFO  [info] loading settings for project scala-test-build from metals.sbt,plugins.sbt,scaffold.sbt ...[0m
+2022.06.12 10:40:57 INFO  [info] loading project definition from E:\scala-test\project[0m
+2022.06.12 10:40:59 INFO  [success] Generated .bloop\scala-test-build.json[0m
+2022.06.12 10:40:59 INFO  [success] Total time: 2 s, completed 12 juin 2022 10:40:59[0m
+2022.06.12 10:40:59 INFO  [info] loading settings for project root from build.sbt ...[0m
+2022.06.12 10:41:00 INFO  [info]   __              __[0m
+2022.06.12 10:41:00 INFO  [info]   \ \     ____   / /____ _ __  __[0m
+2022.06.12 10:41:00 INFO  [info]    \ \   / __ \ / // __ `// / / /[0m
+2022.06.12 10:41:00 INFO  [info]    / /  / /_/ // // /_/ // /_/ /[0m
+2022.06.12 10:41:00 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /[0m
+2022.06.12 10:41:00 INFO  [info]       /_/               /____/[0m
+2022.06.12 10:41:00 INFO  [info] [0m
+2022.06.12 10:41:00 INFO  [info] Version 2.8.16 running Java 1.8.0_292[0m
+2022.06.12 10:41:00 INFO  [info] [0m
+2022.06.12 10:41:00 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:[0m
+2022.06.12 10:41:00 INFO  [info] https://www.playframework.com/sponsors[0m
+2022.06.12 10:41:00 INFO  [info] [0m
+2022.06.12 10:41:01 INFO  [success] Generated .bloop\root.json[0m
+2022.06.12 10:41:01 INFO  [success] Generated .bloop\root-test.json[0m
+2022.06.12 10:41:01 INFO  [success] Total time: 1 s, completed 12 juin 2022 10:41:02[0m
+2022.06.12 10:41:02 INFO  time: ran 'sbt bloopInstall' in 13s[0m
+2022.06.12 10:41:02 INFO  Disconnecting from Bloop session...[0m
+2022.06.12 10:41:02 INFO  Shut down connection with build server.[0m
+2022.06.12 10:41:02 INFO  Shut down connection with build server.[0m
+2022.06.12 10:41:02 INFO  Shut down connection with build server.[0m
+2022.06.12 10:41:02 INFO  Attempting to connect to the build server...[0m
+2022.06.12 10:41:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.12 10:41:02 INFO  Attempting to connect to the build server...[0m
+2022.06.12 10:41:02 INFO  Attempting to connect to the build server...[0m
+2022.06.12 10:41:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\project\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.12 10:41:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\project\project\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.12 10:41:02 INFO  time: Connected to build server in 88ms[0m
+2022.06.12 10:41:02 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b[0m
+2022.06.12 10:41:04 INFO  time: indexed workspace in 2.28s[0m
+2022.06.12 10:45:34 INFO  running 'C:\Users\Utilisateur\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\UTILIS~1\AppData\Local\Temp\metals5639911490749305584\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.06.12 10:45:35 INFO  [info] welcome to sbt 1.6.2 (AdoptOpenJDK Java 1.8.0_292)[0m
+2022.06.12 10:45:35 INFO  [info] loading settings for project scala-test-build-build-build from metals.sbt ...[0m
+2022.06.12 10:45:37 INFO  [info] loading project definition from E:\scala-test\project\project\project[0m
+2022.06.12 10:45:37 INFO  [info] loading settings for project scala-test-build-build from metals.sbt ...[0m
+2022.06.12 10:45:37 INFO  [info] loading project definition from E:\scala-test\project\project[0m
+2022.06.12 10:45:40 INFO  [success] Generated .bloop\scala-test-build-build.json[0m
+2022.06.12 10:45:40 INFO  [success] Total time: 3 s, completed 12 juin 2022 10:45:41[0m
+2022.06.12 10:45:40 INFO  [info] loading settings for project scala-test-build from metals.sbt,plugins.sbt,scaffold.sbt ...[0m
+2022.06.12 10:45:40 INFO  [info] loading project definition from E:\scala-test\project[0m
+2022.06.12 10:45:43 INFO  [success] Generated .bloop\scala-test-build.json[0m
+2022.06.12 10:45:43 INFO  [success] Total time: 2 s, completed 12 juin 2022 10:45:43[0m
+2022.06.12 10:45:43 INFO  [info] loading settings for project root from build.sbt ...[0m
+2022.06.12 10:45:43 INFO  [info]   __              __[0m
+2022.06.12 10:45:43 INFO  [info]   \ \     ____   / /____ _ __  __[0m
+2022.06.12 10:45:43 INFO  [info]    \ \   / __ \ / // __ `// / / /[0m
+2022.06.12 10:45:43 INFO  [info]    / /  / /_/ // // /_/ // /_/ /[0m
+2022.06.12 10:45:43 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /[0m
+2022.06.12 10:45:43 INFO  [info]       /_/               /____/[0m
+2022.06.12 10:45:43 INFO  [info] [0m
+2022.06.12 10:45:43 INFO  [info] Version 2.8.16 running Java 1.8.0_292[0m
+2022.06.12 10:45:43 INFO  [info] [0m
+2022.06.12 10:45:43 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:[0m
+2022.06.12 10:45:43 INFO  [info] https://www.playframework.com/sponsors[0m
+2022.06.12 10:45:43 INFO  [info] [0m
+2022.06.12 10:45:45 INFO  [success] Generated .bloop\root.json[0m
+2022.06.12 10:45:45 INFO  [success] Generated .bloop\root-test.json[0m
+2022.06.12 10:45:45 INFO  [success] Total time: 1 s, completed 12 juin 2022 10:45:45[0m
+2022.06.12 10:45:45 INFO  time: ran 'sbt bloopInstall' in 11s[0m
+2022.06.12 10:45:45 INFO  Disconnecting from Bloop session...[0m
+2022.06.12 10:45:45 INFO  Shut down connection with build server.[0m
+2022.06.12 10:45:45 INFO  Shut down connection with build server.[0m
+2022.06.12 10:45:45 INFO  Shut down connection with build server.[0m
+2022.06.12 10:45:45 INFO  Attempting to connect to the build server...[0m
+2022.06.12 10:45:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.12 10:45:45 INFO  Attempting to connect to the build server...[0m
+2022.06.12 10:45:45 INFO  Attempting to connect to the build server...[0m
+2022.06.12 10:45:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\project\project\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.12 10:45:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\project\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.12 10:45:45 INFO  time: Connected to build server in 88ms[0m
+2022.06.12 10:45:45 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b[0m
+2022.06.12 10:45:48 INFO  time: indexed workspace in 2.41s[0m
+2022.06.12 10:48:28 INFO  running 'C:\Users\Utilisateur\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\UTILIS~1\AppData\Local\Temp\metals8715516155025302034\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.06.12 10:48:30 INFO  [info] welcome to sbt 1.6.2 (AdoptOpenJDK Java 1.8.0_292)[0m
+2022.06.12 10:48:30 INFO  [info] loading settings for project scala-test-build-build-build from metals.sbt ...[0m
+2022.06.12 10:48:31 INFO  [info] loading project definition from E:\scala-test\project\project\project[0m
+2022.06.12 10:48:31 INFO  [info] loading settings for project scala-test-build-build from metals.sbt ...[0m
+2022.06.12 10:48:31 INFO  [info] loading project definition from E:\scala-test\project\project[0m
+2022.06.12 10:48:35 INFO  [success] Generated .bloop\scala-test-build-build.json[0m
+2022.06.12 10:48:35 INFO  [success] Total time: 3 s, completed 12 juin 2022 10:48:35[0m
+2022.06.12 10:48:35 INFO  [info] loading settings for project scala-test-build from metals.sbt,plugins.sbt,scaffold.sbt ...[0m
+2022.06.12 10:48:35 INFO  [info] loading project definition from E:\scala-test\project[0m
+2022.06.12 10:48:37 INFO  [success] Generated .bloop\scala-test-build.json[0m
+2022.06.12 10:48:37 INFO  [success] Total time: 2 s, completed 12 juin 2022 10:48:37[0m
+2022.06.12 10:48:37 INFO  [info] loading settings for project root from build.sbt ...[0m
+2022.06.12 10:48:37 INFO  [info]   __              __[0m
+2022.06.12 10:48:37 INFO  [info]   \ \     ____   / /____ _ __  __[0m
+2022.06.12 10:48:37 INFO  [info]    \ \   / __ \ / // __ `// / / /[0m
+2022.06.12 10:48:37 INFO  [info]    / /  / /_/ // // /_/ // /_/ /[0m
+2022.06.12 10:48:37 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /[0m
+2022.06.12 10:48:37 INFO  [info]       /_/               /____/[0m
+2022.06.12 10:48:37 INFO  [info] [0m
+2022.06.12 10:48:37 INFO  [info] Version 2.8.16 running Java 1.8.0_292[0m
+2022.06.12 10:48:37 INFO  [info] [0m
+2022.06.12 10:48:37 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:[0m
+2022.06.12 10:48:37 INFO  [info] https://www.playframework.com/sponsors[0m
+2022.06.12 10:48:37 INFO  [info] [0m
+2022.06.12 10:48:40 INFO  [success] Generated .bloop\root.json[0m
+2022.06.12 10:48:40 INFO  [success] Generated .bloop\root-test.json[0m
+2022.06.12 10:48:40 INFO  [success] Total time: 1 s, completed 12 juin 2022 10:48:40[0m
+2022.06.12 10:48:40 INFO  time: ran 'sbt bloopInstall' in 11s[0m
+2022.06.12 10:48:40 INFO  Disconnecting from Bloop session...[0m
+2022.06.12 10:48:40 INFO  Shut down connection with build server.[0m
+2022.06.12 10:48:40 INFO  Shut down connection with build server.[0m
+2022.06.12 10:48:40 INFO  Shut down connection with build server.[0m
+2022.06.12 10:48:40 INFO  Attempting to connect to the build server...[0m
+2022.06.12 10:48:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.12 10:48:40 INFO  Attempting to connect to the build server...[0m
+2022.06.12 10:48:40 INFO  Attempting to connect to the build server...[0m
+2022.06.12 10:48:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\project\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.12 10:48:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\project\project\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.12 10:48:40 INFO  time: Connected to build server in 79ms[0m
+2022.06.12 10:48:40 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b[0m
+2022.06.12 10:48:42 INFO  time: indexed workspace in 2.24s[0m
+2022.06.12 10:49:03 INFO  shutting down Metals[0m
+2022.06.12 10:49:03 INFO  Shut down connection with build server.[0m
+2022.06.12 10:49:03 INFO  Shut down connection with build server.[0m
+2022.06.12 10:49:03 INFO  Shut down connection with build server.[0m
+2022.06.12 10:53:22 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at e:\scala-test\.metals\lsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\lsp.trace.json[0m
+2022.06.12 10:53:23 INFO  logging to file E:\scala-test\.metals\metals.log[0m
+2022.06.12 10:53:23 INFO  Started: Metals version 0.11.6 in workspace 'E:\scala-test' for client Visual Studio Code 1.68.0.[0m
+2022.06.12 10:53:25 INFO  time: initialize in 1.63s[0m
+2022.06.12 10:53:25 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.06.12 10:53:26 INFO  Attempting to connect to the build server...[0m
+2022.06.12 10:53:26 INFO  skipping build import with status 'Installed'[0m
+2022.06.12 10:53:31 INFO  no build target found for E:\scala-test\build.sbt. Using presentation compiler with project's scala-library version: 3.1.2[0m
+2022.06.12 10:53:35 INFO  time: code lens generation in 8.25s[0m
+2022.06.12 10:53:35 INFO  time: code lens generation in 8.25s[0m
+2022.06.12 10:53:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.12 10:53:38 INFO  Attempting to connect to the build server...[0m
+2022.06.12 10:53:38 INFO  Attempting to connect to the build server...[0m
+2022.06.12 10:53:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\project\project\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.12 10:53:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\project\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.12 10:53:39 INFO  time: Connected to build server in 13s[0m
+2022.06.12 10:53:39 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b[0m
+2022.06.12 10:53:38 INFO  time: Imported build in 0.24s[0m
+2022.06.12 10:53:47 INFO  running 'C:\Users\Utilisateur\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\UTILIS~1\AppData\Local\Temp\metals7499884122658820672\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.06.12 10:53:50 INFO  [info] welcome to sbt 1.6.2 (AdoptOpenJDK Java 1.8.0_292)[0m
+2022.06.12 10:53:52 INFO  [info] loading settings for project scala-test-build-build-build from metals.sbt ...[0m
+2022.06.12 10:53:52 INFO  [info] loading project definition from E:\scala-test\project\project\project[0m
+2022.06.12 10:53:53 INFO  [info] loading settings for project scala-test-build-build from metals.sbt ...[0m
+2022.06.12 10:53:53 INFO  [info] loading project definition from E:\scala-test\project\project[0m
+2022.06.12 10:53:57 INFO  [success] Generated .bloop\scala-test-build-build.json[0m
+2022.06.12 10:53:57 INFO  [success] Total time: 4 s, completed 12 juin 2022 10:53:57[0m
+2022.06.12 10:53:57 INFO  [info] loading settings for project scala-test-build from metals.sbt,plugins.sbt,scaffold.sbt ...[0m
+2022.06.12 10:53:57 INFO  [info] loading project definition from E:\scala-test\project[0m
+2022.06.12 10:53:58 INFO  time: indexed workspace in 19s[0m
+2022.06.12 10:53:59 INFO  [success] Generated .bloop\scala-test-build.json[0m
+2022.06.12 10:53:59 INFO  [success] Total time: 3 s, completed 12 juin 2022 10:54:00[0m
+2022.06.12 10:54:00 INFO  [info] loading settings for project root from build.sbt ...[0m
+2022.06.12 10:54:00 INFO  [info]   __              __[0m
+2022.06.12 10:54:00 INFO  [info]   \ \     ____   / /____ _ __  __[0m
+2022.06.12 10:54:00 INFO  [info]    \ \   / __ \ / // __ `// / / /[0m
+2022.06.12 10:54:00 INFO  [info]    / /  / /_/ // // /_/ // /_/ /[0m
+2022.06.12 10:54:00 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /[0m
+2022.06.12 10:54:00 INFO  [info]       /_/               /____/[0m
+2022.06.12 10:54:00 INFO  [info] [0m
+2022.06.12 10:54:00 INFO  [info] Version 2.8.16 running Java 1.8.0_292[0m
+2022.06.12 10:54:00 INFO  [info] [0m
+2022.06.12 10:54:00 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:[0m
+2022.06.12 10:54:00 INFO  [info] https://www.playframework.com/sponsors[0m
+2022.06.12 10:54:00 INFO  [info] [0m
+2022.06.12 10:54:03 INFO  [success] Generated .bloop\root.json[0m
+2022.06.12 10:54:03 INFO  [success] Generated .bloop\root-test.json[0m
+2022.06.12 10:54:03 INFO  [success] Total time: 2 s, completed 12 juin 2022 10:54:03[0m
+2022.06.12 10:54:03 INFO  time: ran 'sbt bloopInstall' in 15s[0m
+2022.06.12 10:54:03 INFO  Disconnecting from Bloop session...[0m
+2022.06.12 10:54:03 INFO  Shut down connection with build server.[0m
+2022.06.12 10:54:03 INFO  Shut down connection with build server.[0m
+2022.06.12 10:54:03 INFO  Shut down connection with build server.[0m
+2022.06.12 10:54:03 INFO  Attempting to connect to the build server...[0m
+2022.06.12 10:54:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.12 10:54:03 INFO  Attempting to connect to the build server...[0m
+2022.06.12 10:54:03 INFO  Attempting to connect to the build server...[0m
+2022.06.12 10:54:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\project\project\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.12 10:54:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\scala-test\project\.metals\bsp.trace.json or C:\Users\Utilisateur\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.12 10:54:03 INFO  time: Connected to build server in 0.12s[0m
+2022.06.12 10:54:03 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b[0m
+2022.06.12 10:54:07 INFO  time: indexed workspace in 3.27s[0m
+error: E:\scala-test\.metals\.tmp\.metals\.tmp\Main-4797233753588273134.scala is not a file
+2022.06.12 10:55:27 INFO  shutting down Metals[0m
+2022.06.12 10:55:27 INFO  Shut down connection with build server.[0m
+2022.06.12 10:55:27 INFO  Shut down connection with build server.[0m
+2022.06.12 10:55:27 INFO  Shut down connection with build server.[0m

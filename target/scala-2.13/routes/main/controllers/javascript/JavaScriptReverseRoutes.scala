@@ -97,7 +97,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:14
+    // @LINE:15
     def validateLoginPost: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.LoginController.validateLoginPost",
       """
@@ -107,7 +107,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:15
+    // @LINE:16
     def validation: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.LoginController.validation",
       """
@@ -119,7 +119,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:20
+  // @LINE:21
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -127,7 +127,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:20
+    // @LINE:21
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """

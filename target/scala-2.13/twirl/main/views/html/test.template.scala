@@ -23,24 +23,27 @@ object test extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlF
       {
 
 
-Seq[Any](_display_(/*2.2*/main("test")/*2.14*/ {_display_(Seq[Any](format.raw/*2.16*/("""
+Seq[Any](format.raw/*1.22*/("""
+"""),_display_(/*2.2*/main("test")/*2.14*/ {_display_(Seq[Any](format.raw/*2.16*/("""
 """),_display_(/*3.2*/defining(play.core.PlayVersion.current)/*3.41*/ { version =>_display_(Seq[Any](format.raw/*3.54*/("""
     
 """),format.raw/*5.1*/("""<div class="container"></div>
     <h2>1ere vue de test avec Scala</h2>
 
+    <p>...Et si je suis ici c'est que je suis bien connecté!</p>
+
     <div class="wrapper">
         <ul>
-            """),_display_(/*10.14*/for(cour <- cours) yield /*10.32*/{_display_(Seq[Any](format.raw/*10.33*/("""
-                    """),format.raw/*11.21*/("""<li>"""),_display_(/*11.26*/cour),format.raw/*11.30*/("""</li>
-            """)))}),format.raw/*12.14*/("""
-        """),format.raw/*13.9*/("""</ul>
+            """),_display_(/*12.14*/for(cour <- cours) yield /*12.32*/{_display_(Seq[Any](format.raw/*12.33*/("""
+                    """),format.raw/*13.21*/("""<li>"""),_display_(/*13.26*/cour),format.raw/*13.30*/("""</li>
+            """)))}),format.raw/*14.14*/("""
+        """),format.raw/*15.9*/("""</ul>
     </div>
 </div>
 
 
 
-""")))}),format.raw/*19.2*/("""
+""")))}),format.raw/*21.2*/("""
 """)))}))
       }
     }
@@ -58,9 +61,9 @@ Seq[Any](_display_(/*2.2*/main("test")/*2.14*/ {_display_(Seq[Any](format.raw/*2
               /*
                   -- GENERATED --
                   SOURCE: app/views/test.scala.html
-                  HASH: 2130e82ed81796e22cb3976512a9863c50a6b5a4
-                  MATRIX: 733->1|847->23|867->35|906->37|933->39|980->78|1030->91|1062->97|1213->221|1247->239|1286->240|1335->261|1367->266|1392->270|1442->289|1478->298|1536->326
-                  LINES: 21->1|26->2|26->2|26->2|27->3|27->3|27->3|29->5|34->10|34->10|34->10|35->11|35->11|35->11|36->12|37->13|43->19
+                  HASH: 57e22ef3f1413a120d2e13478680bacc526b2099
+                  MATRIX: 733->1|848->21|876->24|896->36|935->38|963->41|1010->80|1060->93|1094->101|1318->298|1352->316|1391->317|1441->339|1473->344|1498->348|1549->368|1586->378|1650->412
+                  LINES: 21->1|26->1|27->2|27->2|27->2|28->3|28->3|28->3|30->5|37->12|37->12|37->12|38->13|38->13|38->13|39->14|40->15|46->21
                   -- GENERATED --
               */
           

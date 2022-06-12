@@ -3,6 +3,7 @@ package controllers
 import javax.inject._
 import play.api._
 import play.api.mvc._
+import models.LoginMemoryModel
 
 
 @Singleton
@@ -21,7 +22,11 @@ class LoginController @Inject()(cc: ControllerComponents) extends AbstractContro
         postVals.map {args =>
             val username = args("username").head
             val password = args("password").head
-            Redirect(s"$username logged in with $password")
+                if (LoginMemoryModel.validateUser(username, password)) {
+                    Redirect(routes.LoginController.validation())
+                } else {
+                    Redirect(routes.LoginController.login()).flashing("error" -> "Invalid username or password")
+                }
             }.getOrElse(Ok("Oups!"))
     }
 

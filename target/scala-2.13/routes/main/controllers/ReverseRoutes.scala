@@ -70,13 +70,13 @@ package controllers {
       Call("GET", _prefix + { _defaultPrefix } + "validate" + play.core.routing.queryString(List(Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("username", username)), Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("password", password)))))
     }
   
-    // @LINE:14
+    // @LINE:15
     def validateLoginPost: Call = {
       
       Call("POST", _prefix + { _defaultPrefix } + "validatePost")
     }
   
-    // @LINE:15
+    // @LINE:16
     def validation(): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "validateOk")
@@ -84,14 +84,14 @@ package controllers {
   
   }
 
-  // @LINE:20
+  // @LINE:21
   class ReverseAssets(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:20
+    // @LINE:21
     def versioned(file:Asset): Call = {
       implicit lazy val _rrc = new play.core.routing.ReverseRouteContext(Map(("path", "/public"))); _rrc
       Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[play.api.mvc.PathBindable[Asset]].unbind("file", file))
