@@ -1,4 +1,4 @@
-@(cours: Seq[String])
+@(cours: Seq[String])(implicit request: RequestHeader, flash: Flash)
 @main("test") {
 @defining(play.core.PlayVersion.current) { version =>
     
@@ -13,6 +13,21 @@
                     <li>@cour</li>
             }
         </ul>
+        <br>
+        
+    <div>
+        <form method="post" action="@routes.TestController.addTask">
+            @helper.CSRF.formField
+            <input type="text" name="newTask"></input>
+            <br>
+            <input type="submit">Add</input>
+        </form>
+    </div>
+
+    </div>
+
+    <div>
+        <a href="@routes.LoginController.logout">Logout</a>
     </div>
 </div>
 

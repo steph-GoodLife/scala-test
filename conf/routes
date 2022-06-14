@@ -11,9 +11,14 @@ GET     /test                               controllers.TestController.test()
 
 GET     /login                              controllers.LoginController.login()
 GET     /validate                           controllers.LoginController.validateLoginGet(username, password)
-+nocsrf
++ nocsrf
 POST    /validatePost                       controllers.LoginController.validateLoginPost
 GET     /validateOk                         controllers.LoginController.validation()
+POST    /createUser                         controllers.LoginController.createUser
+
+POST    /addTask                            controllers.TestController.addTask
+
+GET     /logout                             controllers.LoginController.logout
 
 
 

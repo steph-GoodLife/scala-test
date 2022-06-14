@@ -1,18 +1,30 @@
 @* Login page *@
-@()
+@()(implicit request: RequestHeader, flash: Flash)
 
 @main("login"){
     @defining(play.core.PlayVersion.current) { version =>
         
-    <h2>Login</h2>
 
     <form method="get" action="/validate">
+        <h2>Login</h2>
         Username: <input type="text" name="username"/></input><br>
         Password: <input type="password" name="password"/></input><br>
         <input type="submit"/>
     </form>
+    <br>
 
     <form method="post" action="/validatePost">
+        @helper.CSRF.formField
+        <h2>Login with post</h2>
+        Username: <input type="text" name="username"/></input><br> 
+        Password: <input type="password" name="password"/></input><br>
+        <input type="submit"/>
+    </form>
+    <br>
+
+    <form method="post" action="@routes.LoginController.createUser">
+        @helper.CSRF.formField
+        <h2>Create User</h2>
         Username: <input type="text" name="username"/></input><br> 
         Password: <input type="password" name="password"/></input><br>
         <input type="submit"/>

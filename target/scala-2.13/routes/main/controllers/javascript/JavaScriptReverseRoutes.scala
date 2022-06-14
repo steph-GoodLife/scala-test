@@ -67,6 +67,16 @@ package controllers.javascript {
       """
     )
   
+    // @LINE:19
+    def addTask: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.TestController.addTask",
+      """
+        function() {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "addTask"})
+        }
+      """
+    )
+  
   }
 
   // @LINE:12
@@ -77,32 +87,12 @@ package controllers.javascript {
     }
 
   
-    // @LINE:12
-    def login: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.LoginController.login",
-      """
-        function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "login"})
-        }
-      """
-    )
-  
     // @LINE:13
     def validateLoginGet: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.LoginController.validateLoginGet",
       """
         function(username0,password1) {
           return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "validate" + _qS([(""" + implicitly[play.api.mvc.QueryStringBindable[String]].javascriptUnbind + """)("username", username0), (""" + implicitly[play.api.mvc.QueryStringBindable[String]].javascriptUnbind + """)("password", password1)])})
-        }
-      """
-    )
-  
-    // @LINE:15
-    def validateLoginPost: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.LoginController.validateLoginPost",
-      """
-        function() {
-          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "validatePost"})
         }
       """
     )
@@ -117,9 +107,49 @@ package controllers.javascript {
       """
     )
   
+    // @LINE:17
+    def createUser: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.LoginController.createUser",
+      """
+        function() {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "createUser"})
+        }
+      """
+    )
+  
+    // @LINE:21
+    def logout: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.LoginController.logout",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "logout"})
+        }
+      """
+    )
+  
+    // @LINE:15
+    def validateLoginPost: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.LoginController.validateLoginPost",
+      """
+        function() {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "validatePost"})
+        }
+      """
+    )
+  
+    // @LINE:12
+    def login: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.LoginController.login",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "login"})
+        }
+      """
+    )
+  
   }
 
-  // @LINE:21
+  // @LINE:26
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -127,7 +157,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:21
+    // @LINE:26
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """

@@ -18,7 +18,7 @@ class Routes(
   TestController_1: controllers.TestController,
   // @LINE:12
   LoginController_2: controllers.LoginController,
-  // @LINE:21
+  // @LINE:26
   Assets_3: controllers.Assets,
   val prefix: String
 ) extends GeneratedRouter {
@@ -31,7 +31,7 @@ class Routes(
     TestController_1: controllers.TestController,
     // @LINE:12
     LoginController_2: controllers.LoginController,
-    // @LINE:21
+    // @LINE:26
     Assets_3: controllers.Assets
   ) = this(errorHandler, HomeController_0, TestController_1, LoginController_2, Assets_3, "/")
 
@@ -54,6 +54,9 @@ class Routes(
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """validate""", """controllers.LoginController.validateLoginGet(username:String, password:String)"""),
     ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """validatePost""", """controllers.LoginController.validateLoginPost"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """validateOk""", """controllers.LoginController.validation()"""),
+    ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """createUser""", """controllers.LoginController.createUser"""),
+    ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """addTask""", """controllers.TestController.addTask"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """logout""", """controllers.LoginController.logout"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/""" + "$" + """file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
@@ -206,11 +209,65 @@ class Routes(
     )
   )
 
+  // @LINE:17
+  private[this] lazy val controllers_LoginController_createUser8_route = Route("POST",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("createUser")))
+  )
+  private[this] lazy val controllers_LoginController_createUser8_invoker = createInvoker(
+    LoginController_2.createUser,
+    play.api.routing.HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.LoginController",
+      "createUser",
+      Nil,
+      "POST",
+      this.prefix + """createUser""",
+      """""",
+      Seq()
+    )
+  )
+
+  // @LINE:19
+  private[this] lazy val controllers_TestController_addTask9_route = Route("POST",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("addTask")))
+  )
+  private[this] lazy val controllers_TestController_addTask9_invoker = createInvoker(
+    TestController_1.addTask,
+    play.api.routing.HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.TestController",
+      "addTask",
+      Nil,
+      "POST",
+      this.prefix + """addTask""",
+      """""",
+      Seq()
+    )
+  )
+
   // @LINE:21
-  private[this] lazy val controllers_Assets_versioned8_route = Route("GET",
+  private[this] lazy val controllers_LoginController_logout10_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("logout")))
+  )
+  private[this] lazy val controllers_LoginController_logout10_invoker = createInvoker(
+    LoginController_2.logout,
+    play.api.routing.HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.LoginController",
+      "logout",
+      Nil,
+      "GET",
+      this.prefix + """logout""",
+      """""",
+      Seq()
+    )
+  )
+
+  // @LINE:26
+  private[this] lazy val controllers_Assets_versioned11_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("assets/"), DynamicPart("file", """.+""",false)))
   )
-  private[this] lazy val controllers_Assets_versioned8_invoker = createInvoker(
+  private[this] lazy val controllers_Assets_versioned11_invoker = createInvoker(
     Assets_3.versioned(fakeValue[String], fakeValue[Asset]),
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -275,10 +332,28 @@ class Routes(
         controllers_LoginController_validation7_invoker.call(LoginController_2.validation())
       }
   
+    // @LINE:17
+    case controllers_LoginController_createUser8_route(params@_) =>
+      call { 
+        controllers_LoginController_createUser8_invoker.call(LoginController_2.createUser)
+      }
+  
+    // @LINE:19
+    case controllers_TestController_addTask9_route(params@_) =>
+      call { 
+        controllers_TestController_addTask9_invoker.call(TestController_1.addTask)
+      }
+  
     // @LINE:21
-    case controllers_Assets_versioned8_route(params@_) =>
+    case controllers_LoginController_logout10_route(params@_) =>
+      call { 
+        controllers_LoginController_logout10_invoker.call(LoginController_2.logout)
+      }
+  
+    // @LINE:26
+    case controllers_Assets_versioned11_route(params@_) =>
       call(Param[String]("path", Right("/public")), params.fromPath[Asset]("file", None)) { (path, file) =>
-        controllers_Assets_versioned8_invoker.call(Assets_3.versioned(path, file))
+        controllers_Assets_versioned11_invoker.call(Assets_3.versioned(path, file))
       }
   }
 }

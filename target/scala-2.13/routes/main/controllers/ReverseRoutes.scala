@@ -49,6 +49,12 @@ package controllers {
       Call("GET", _prefix + { _defaultPrefix } + "test")
     }
   
+    // @LINE:19
+    def addTask: Call = {
+      
+      Call("POST", _prefix + { _defaultPrefix } + "addTask")
+    }
+  
   }
 
   // @LINE:12
@@ -58,22 +64,10 @@ package controllers {
     }
 
   
-    // @LINE:12
-    def login(): Call = {
-      
-      Call("GET", _prefix + { _defaultPrefix } + "login")
-    }
-  
     // @LINE:13
     def validateLoginGet(username:String, password:String): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "validate" + play.core.routing.queryString(List(Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("username", username)), Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("password", password)))))
-    }
-  
-    // @LINE:15
-    def validateLoginPost: Call = {
-      
-      Call("POST", _prefix + { _defaultPrefix } + "validatePost")
     }
   
     // @LINE:16
@@ -82,16 +76,40 @@ package controllers {
       Call("GET", _prefix + { _defaultPrefix } + "validateOk")
     }
   
+    // @LINE:17
+    def createUser: Call = {
+      
+      Call("POST", _prefix + { _defaultPrefix } + "createUser")
+    }
+  
+    // @LINE:21
+    def logout: Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "logout")
+    }
+  
+    // @LINE:15
+    def validateLoginPost: Call = {
+      
+      Call("POST", _prefix + { _defaultPrefix } + "validatePost")
+    }
+  
+    // @LINE:12
+    def login(): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "login")
+    }
+  
   }
 
-  // @LINE:21
+  // @LINE:26
   class ReverseAssets(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:21
+    // @LINE:26
     def versioned(file:Asset): Call = {
       implicit lazy val _rrc = new play.core.routing.ReverseRouteContext(Map(("path", "/public"))); _rrc
       Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[play.api.mvc.PathBindable[Asset]].unbind("file", file))

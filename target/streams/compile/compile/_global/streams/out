@@ -1,4 +1,18 @@
-[0m[[0m[31merror[0m] [0m[0mE:\scala-test\app\controllers\LoginController.scala:24:45: value validatePost is not a member of controllers.ReverseLoginController[0m
-[0m[[0m[31merror[0m] [0m[0m            Redirect(routes.LoginController.validatePost())[0m
-[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mF:\ScalaTest\scala-test\app\controllers\TestController.scala:22:17: not found: value LoginMemoryModel[0m
+[0m[[0m[31merror[0m] [0m[0m                LoginMemoryModel.addTask(usernameOption, task);[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mF:\ScalaTest\scala-test\app\controllers\TestController.scala:23:33: value Testcontroller is not a member of object controllers.routes[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean TestController?[0m
+[0m[[0m[31merror[0m] [0m[0m                Redirect(routes.Testcontroller.test)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mF:\ScalaTest\scala-test\app\controllers\TestController.scala:24:56: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method test,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[31merror[0m] [0m[0m            }.getOrElse(Redirect(routes.TestController.test))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mF:\ScalaTest\scala-test\app\controllers\TestController.scala:25:53: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method login,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[31merror[0m] [0m[0m        }.getOrElse(Redirect(routes.LoginController.login))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

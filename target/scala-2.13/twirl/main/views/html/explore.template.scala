@@ -15,15 +15,15 @@ import play.api.templates.PlayMagic._
 import play.api.mvc._
 import play.api.data._
 
-object explore extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,_root_.play.twirl.api.Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with _root_.play.twirl.api.Template0[play.twirl.api.HtmlFormat.Appendable] {
+object explore extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,_root_.play.twirl.api.Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with _root_.play.twirl.api.Template1[Flash,play.twirl.api.HtmlFormat.Appendable] {
 
   /**/
-  def apply/*1.2*/():play.twirl.api.HtmlFormat.Appendable = {
+  def apply/*1.2*/()(implicit flash: Flash):play.twirl.api.HtmlFormat.Appendable = {
     _display_ {
       {
 
 
-Seq[Any](format.raw/*1.4*/("""
+Seq[Any](format.raw/*1.27*/("""
 
 """),_display_(/*3.2*/main("Hello World")/*3.21*/ {_display_(Seq[Any](format.raw/*3.23*/("""
 """),_display_(/*4.2*/defining(play.core.PlayVersion.current)/*4.41*/ { version =>_display_(Seq[Any](format.raw/*4.54*/("""
@@ -118,9 +118,9 @@ Seq[Any](format.raw/*1.4*/("""
     }
   }
 
-  def render(): play.twirl.api.HtmlFormat.Appendable = apply()
+  def render(flash:Flash): play.twirl.api.HtmlFormat.Appendable = apply()(flash)
 
-  def f:(() => play.twirl.api.HtmlFormat.Appendable) = () => apply()
+  def f:(() => (Flash) => play.twirl.api.HtmlFormat.Appendable) = () => (flash) => apply()(flash)
 
   def ref: this.type = this
 
@@ -130,8 +130,8 @@ Seq[Any](format.raw/*1.4*/("""
               /*
                   -- GENERATED --
                   SOURCE: app/views/explore.scala.html
-                  HASH: 11e50c41dd14043a239e500e5d9a2e180b049c15
-                  MATRIX: 724->1|820->3|850->8|877->27|916->29|944->32|991->71|1041->84|1071->88|4201->3191|4230->3198|4891->3831|4920->3832|4949->3833|5044->3901|5072->3902|6357->5160|6372->5166|6420->5192|6541->5287|6577->5302|6610->5308|6675->5343|6708->5346
+                  HASH: 5a5857ea20f8fe5a1567f6987ab12d002a23e00a
+                  MATRIX: 730->1|850->26|880->31|907->50|946->52|974->55|1021->94|1071->107|1101->111|4231->3214|4260->3221|4921->3854|4950->3855|4979->3856|5074->3924|5102->3925|6387->5183|6402->5189|6450->5215|6571->5310|6607->5325|6640->5331|6705->5366|6738->5369
                   LINES: 21->1|26->1|28->3|28->3|28->3|29->4|29->4|29->4|31->6|72->47|72->47|82->57|82->57|82->57|84->59|84->59|105->80|105->80|105->80|109->84|109->84|110->85|114->89|115->90
                   -- GENERATED --
               */
